@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>一覧</title>
+</head>
+<body>
+<div class="header">
+
+<p class="logout">ログアウト</p>
+<p class="user">ユーザ名 さん</p>
+
+</div>
+
+<div class="main">
+
+<div class="title">
+<h1>ユーザ一覧</h1>
+<p>新規登録<p>
+</div>
+
+<div class="form">
+<ul>
+<li class="ID">
+<label for="ID">ログインID</label>
+ <input type="text" class="waku" style="width:263px;">
+</li>
+
+
+<li class="pass">
+<label for="pass">パスワード</label>
+ <input type="text" class="waku" style="width:263px;">
+</li>
+<li class="date">
+<label for="date">生年月日</label>
+<input type="date" name="calendar" max="9999-12-31" class="toshi"> ~ <input type="date" name="calendar" max="9999-12-31" class="toshi">
+</li>
+</ul>
+<div class="hako">
+<input type="submit" value="検索" class="hoge">
+</div>
+</div>
+
+<hr>
+
+<table >
+<tr>
+<th>ログインID</th><th>ユーザ名</th><th>生年月日<th>　　　　　　　　　　　　</th>
+</tr>
+<tr>
+<td>id1</td><td>田中太郎</td><td>1889年04月23日</td>
+<td><input type="submit" value="詳細" class="shosai"> <input type="submit" value="更新" class="kosin"> <input type="submit" value="削除" class="sakuzixyo"></td>
+</tr>
+<tr>
+<td>id2</td><td>佐藤二朗</td><td>1883年01月13日</td>
+<td><input type="submit" value="詳細" class="shosai"> <input type="submit" value="更新" class="kosin"> <input type="submit" value="削除" class="sakuzixyo"> </td>
+</tr>
+<tr>
+<td>id3</td><td>田中太郎</td><td>1884年02月24日</td>
+<td><input type="submit" value="詳細" class="shosai"> <input type="submit" value="更新" class="kosin"> <input type="submit" value="削除" class="sakuzixyo"></td>
+</tr>
+
+
+
+</table>
+
+</div>
+
+
+</body>
+</html>
